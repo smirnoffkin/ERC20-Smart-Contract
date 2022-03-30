@@ -5,7 +5,7 @@ import "./ERC20.sol";
 
 contract VinnyCoin is ERC20 {
 	constructor() {
-		totalSupply = 5000000000;
+		totalSupply = 500000;
 		name = "Vinny Coin";
 		decimals = 10;
 		symbol = "VTC";
